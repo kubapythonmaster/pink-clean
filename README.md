@@ -1,24 +1,23 @@
-# Pink Clean — strona firmy sprzątającej
+# Pink Clean — firma sprzątająca
 
-Landing page w **React + Vite (TypeScript)** dla Pink Clean (Bydgoszcz, Toruń, Nowa Wieś Wielka).
+Strona marketingowa (React + Vite) dla Pink Clean: Bydgoszcz, Toruń, Nowa Wieś Wielka.
 
-## Uruchomienie
+## Live
+
+**https://kubapythonmaster.github.io/pink-clean/**
+
+## Lokalnie
 
 ```bash
 npm install
 npm run dev
 ```
 
-Produkcja:
+## Deploy (GitHub Pages)
 
 ```bash
-npm run build
-npm run preview
+npm run deploy
 ```
-
-## Design prompt
-
-Pełny brief po angielsku: [`DESIGN_PROMPT.md`](./DESIGN_PROMPT.md).
 
 ## Kontakt na stronie
 

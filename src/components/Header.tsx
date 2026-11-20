@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { asset } from '../lib/asset'
 import './Header.css'
 
 const PHONE = '885023660'
@@ -65,7 +66,7 @@ export function Header() {
       <div className="container header__inner">
         <a href="#top" className="header__brand" onClick={close}>
           <img
-            src="/images/logo.webp"
+            src={asset('images/logo.webp')}
             alt="Pink Clean"
             width={44}
             height={44}

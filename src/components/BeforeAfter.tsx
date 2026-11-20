@@ -3,6 +3,7 @@ import {
   ReactCompareSliderHandle,
   ReactCompareSliderImage,
 } from 'react-compare-slider'
+import { asset } from '../lib/asset'
 import './BeforeAfter.css'
 
 const comparisons = [
@@ -10,15 +11,15 @@ const comparisons = [
     id: 'fotel',
     title: 'Fotel bouclé',
     note: 'Od szarego, zabrudzonego materiału do świeżego, różowego odcienia.',
-    before: '/images/fotel-przed.webp',
-    after: '/images/fotel-po.webp',
+    before: asset('images/fotel-przed.webp'),
+    after: asset('images/fotel-po.webp'),
   },
   {
     id: 'materac',
     title: 'Materac',
     note: 'Plamy znikają, tkanina wraca do równego, jasnego koloru.',
-    before: '/images/materac-przed.webp',
-    after: '/images/materac-po.webp',
+    before: asset('images/materac-przed.webp'),
+    after: asset('images/materac-po.webp'),
   },
 ]
 
@@ -80,7 +81,7 @@ export function BeforeAfter() {
 
         <figure className="effects__promo">
           <img
-            src="/images/krzesla.webp"
+            src={asset('images/krzesla.webp')}
             alt="Krzesła przed i po czyszczeniu tapicerki — Pink Clean"
             width={1000}
             height={750}

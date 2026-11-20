@@ -1,3 +1,4 @@
+import { asset } from '../lib/asset'
 import './Footer.css'
 
 const PHONE = '885023660'
@@ -9,7 +10,7 @@ export function Footer() {
       <div className="container footer__inner">
         <div className="footer__brand">
           <img
-            src="/images/logo.webp"
+            src={asset('images/logo.webp')}
             alt=""
             width={40}
             height={40}

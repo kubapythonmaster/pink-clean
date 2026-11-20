@@ -1,3 +1,4 @@
+import { asset } from '../lib/asset'
 import './WhyUs.css'
 
 const points = [
@@ -39,7 +40,7 @@ export function WhyUs() {
 
         <figure className="why__visual">
           <img
-            src="/images/steam.webp"
+            src={asset('images/steam.webp')}
             alt="Sprzątanie domu parownicą — mycie ścian, okien i detali"
             width={1000}
             height={1000}

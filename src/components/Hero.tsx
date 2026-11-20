@@ -1,3 +1,4 @@
+import { asset } from '../lib/asset'
 import './Hero.css'
 
 const PHONE = '885023660'
@@ -9,7 +10,7 @@ export function Hero() {
       <section className="hero" id="top" aria-labelledby="hero-title">
         <div className="hero__media" aria-hidden="true">
           <img
-            src="/images/hero-fotel.webp"
+            src={asset('images/hero-fotel.webp')}
             alt=""
             width={1920}
             height={1280}
